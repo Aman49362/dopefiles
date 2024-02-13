@@ -1,0 +1,17 @@
+{
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "settingsSync.ignoredSettings": [
+        "editor.fontFamily"
+    ],
+
+    "workbench.iconTheme": "fira-code-material-minimal",
+    "editor.fontLigatures": true,
+    "editor.mouseWheelZoom": true,
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "extension.smoothscroll.totalDelay": 100,
+    "editor.fontFamily": "'Cascadia Code', 'monospace', monospace",
+    "workbench.colorTheme": "Cascade-Original"
+}

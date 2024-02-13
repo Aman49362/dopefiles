@@ -1,0 +1,46 @@
+2024-02-12T11:45:16.335Z - info: [ui] [AppStore] loading 0 repositories from store
+2024-02-12T11:45:16.799Z - info: [ui] launching: 3.3.8-linux2 (Linux 6.7.4-arch1-1)
+2024-02-12T11:45:16.804Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-02-12T11:45:16.809Z - info: [ui] Opt in reported.
+2024-02-12T11:45:17.037Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-02-12T11:45:17.657Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-02-12T11:45:18.127Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.495s)
+2024-02-12T11:45:25.510Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2024-02-12T11:45:25.511Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-02-12T11:45:25.517Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=86d6f206-2146-4cce-8ef6-ea5d9d3a286b
+2024-02-12T11:45:25.518Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2024-02-12T11:46:19.341Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2024-02-12T11:46:21.935Z - info: [main] Received possible protocol arguments: 3
+2024-02-12T11:46:21.936Z - info: [main] Processing protocol url
+2024-02-12T11:46:21.936Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-02-12T11:46:22.921Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2024-02-12T11:46:23.101Z - info: [ui] [SignInStore] account resolved
+2024-02-12T11:46:23.102Z - info: [ui] [AppStore] adding account Aman49362 (Aman49362) to store
+2024-02-12T11:46:23.928Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2024-02-12T11:46:24.936Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-02-12T11:46:36.111Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-02-12T11:46:36.508Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-02-12T11:46:36.755Z - info: [ui] Subscribed 'Aman49362' to Alive channel
+2024-02-12T11:46:56.111Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-02-12T11:47:29.686Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/Aman49362/vscode-start.git - Aman49362 (has token)
+2024-02-12T11:47:31.467Z - info: [ui] Executing clone: git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/Aman49362/vscode-start.git /home/m/GitHub/vscode-start (took 1.777s)
+2024-02-12T11:47:31.529Z - info: [ui] [AppStore] adding repository at /home/m/GitHub/vscode-start to store
+2024-02-12T11:47:33.093Z - info: [ui] [BranchPruner] No branches to prune.
+2024-02-12T11:49:03.108Z - info: [main] opening in browser: https://github.com/Aman49362/vscode-start
+2024-02-12T11:52:52.891Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.320s)
+2024-02-12T12:04:18.518Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 5.4s of which 76.0s paused, total 81.5s
+2024-02-12T15:53:44.727Z - info: [ui] [AppStore] loading 1 repositories from store
+2024-02-12T15:53:44.826Z - info: [ui] [AppStore] found account: Aman49362 (Aman49362)
+2024-02-12T15:53:45.892Z - info: [ui] [BranchPruner] Last prune took place 4 hours ago - skipping
+2024-02-12T15:53:46.597Z - info: [ui] Executing getRemotes: git remote -v (took 1.830s)
+2024-02-12T15:53:47.412Z - info: [ui] Subscribed 'Aman49362' to Alive channel
+2024-02-12T15:53:49.586Z - info: [ui] launching: 3.3.8-linux2 (Linux 6.6.3-arch1-1)
+2024-02-12T15:53:49.587Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-02-12T15:53:50.475Z - info: [ui] Stats reported.
+2024-02-12T15:54:07.632Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.515s)
+2024-02-12T16:01:32.861Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/Aman49362/vscode-start.git - Aman49362 (has token)
+2024-02-12T16:01:38.525Z - info: [ui] Executing clone: git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/Aman49362/vscode-start.git /home/m/GitHub/vscode-start (took 4.237s)
+2024-02-12T16:01:38.754Z - info: [ui] [AppStore] adding repository at /home/m/GitHub/vscode-start to store
+2024-02-12T16:01:40.863Z - info: [ui] Executing isUsingLFS: git lfs track (took 1.355s)
+2024-02-12T16:01:41.137Z - info: [ui] [BranchPruner] Last prune took place 4 hours ago - skipping
+2024-02-12T16:01:41.502Z - info: [ui] [BranchPruner] Last prune took place 4 hours ago - skipping

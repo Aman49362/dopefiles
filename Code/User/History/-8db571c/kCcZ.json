@@ -1,0 +1,9 @@
+{
+    "editor.fontFamily": "ttf-fira-sans",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "settingsSync.ignoredSettings": [
+        "editor.fontFamily"
+    ],
+    "workbench.colorTheme": "Smooth Yellow"
+}

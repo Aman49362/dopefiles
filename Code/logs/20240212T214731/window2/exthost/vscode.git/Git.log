@@ -1,0 +1,511 @@
+2024-02-12 21:47:37.333 [info] Log level: Info
+2024-02-12 21:47:37.333 [info] Validating found git in: "git"
+2024-02-12 21:47:37.333 [info] Using git "2.43.1" from "git"
+2024-02-12 21:47:37.333 [info] > git rev-parse --show-toplevel [433ms]
+2024-02-12 21:47:37.333 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-12 21:47:38.386 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-12 21:47:38.387 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-12 21:47:38.956 [info] > git rev-parse --show-toplevel [9ms]
+2024-02-12 21:47:38.956 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-12 21:47:39.931 [info] > git rev-parse --show-toplevel [10ms]
+2024-02-12 21:47:39.931 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-12 21:48:15.088 [info] > git rev-parse --show-toplevel [78ms]
+2024-02-12 21:48:15.088 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-12 21:48:23.451 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-12 21:48:23.471 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-02-12 21:48:23.497 [info] Open repository: /home/m/Documents/prg
+2024-02-12 21:48:23.526 [info] No remotes found in the git config file.
+2024-02-12 21:48:23.565 [info] > git config --get commit.template [58ms]
+2024-02-12 21:48:23.566 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [41ms]
+2024-02-12 21:48:23.567 [warning] No such branch: master.
+2024-02-12 21:48:23.588 [info] > git status -z -uall [7ms]
+2024-02-12 21:48:23.630 [info] > git config --get commit.template [7ms]
+2024-02-12 21:48:23.644 [info] No remotes found in the git config file.
+2024-02-12 21:48:23.645 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-12 21:48:23.645 [warning] No such branch: master.
+2024-02-12 21:48:23.655 [info] > git status -z -uall [2ms]
+2024-02-12 21:48:24.060 [info] > git show --textconv :index.html [35ms]
+2024-02-12 21:48:24.061 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [18ms]
+2024-02-12 21:48:24.066 [info] > git check-ignore -v -z --stdin [8ms]
+2024-02-12 21:48:45.321 [info] No remotes found in the git config file.
+2024-02-12 21:48:45.322 [info] > git config --get commit.template [14ms]
+2024-02-12 21:48:45.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-02-12 21:48:45.323 [warning] No such branch: master.
+2024-02-12 21:48:45.337 [info] > git status -z -uall [2ms]
+2024-02-12 21:48:45.425 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [3ms]
+2024-02-12 21:48:45.465 [info] > git show --textconv :index.html [11ms]
+2024-02-12 21:48:47.882 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [4ms]
+2024-02-12 21:48:47.905 [info] > git show --textconv :index.html [4ms]
+2024-02-12 21:48:50.172 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [4ms]
+2024-02-12 21:48:50.196 [info] > git show --textconv :index.html [4ms]
+2024-02-12 21:48:50.371 [info] No remotes found in the git config file.
+2024-02-12 21:48:50.372 [info] > git config --get commit.template [14ms]
+2024-02-12 21:48:50.373 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-12 21:48:50.373 [warning] No such branch: master.
+2024-02-12 21:48:50.383 [info] > git status -z -uall [2ms]
+2024-02-12 21:48:56.356 [info] No remotes found in the git config file.
+2024-02-12 21:48:56.358 [info] > git config --get commit.template [34ms]
+2024-02-12 21:48:56.362 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-02-12 21:48:56.362 [warning] No such branch: master.
+2024-02-12 21:48:56.375 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [30ms]
+2024-02-12 21:48:56.381 [info] > git status -z -uall [8ms]
+2024-02-12 21:48:56.413 [info] > git show --textconv :index.html [9ms]
+2024-02-12 21:54:09.593 [info] No remotes found in the git config file.
+2024-02-12 21:54:09.595 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-12 21:54:09.595 [warning] No such branch: master.
+2024-02-12 21:54:09.595 [info] > git config --get commit.template [15ms]
+2024-02-12 21:54:09.610 [info] > git status -z -uall [2ms]
+2024-02-12 21:54:09.687 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [5ms]
+2024-02-12 21:54:09.703 [info] > git show --textconv :index.html [5ms]
+2024-02-12 21:54:55.666 [info] No remotes found in the git config file.
+2024-02-12 21:54:55.667 [info] > git config --get commit.template [9ms]
+2024-02-12 21:54:55.668 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-12 21:54:55.668 [warning] No such branch: main.
+2024-02-12 21:54:55.677 [info] > git status -z -uall [2ms]
+2024-02-12 21:54:55.761 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [2ms]
+2024-02-12 21:54:55.775 [info] > git show --textconv :index.html [2ms]
+2024-02-12 21:55:34.584 [info] No remotes found in the git config file.
+2024-02-12 21:55:34.586 [info] > git config --get commit.template [20ms]
+2024-02-12 21:55:34.587 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-12 21:55:34.587 [warning] No such branch: main.
+2024-02-12 21:55:34.602 [info] > git status -z -uall [3ms]
+2024-02-12 21:55:34.656 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [2ms]
+2024-02-12 21:55:34.680 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [17ms]
+2024-02-12 21:55:34.703 [info] > git show --textconv :index.html [13ms]
+2024-02-12 21:55:58.248 [info] No remotes found in the git config file.
+2024-02-12 21:55:58.250 [info] > git config --get commit.template [19ms]
+2024-02-12 21:55:58.251 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-12 21:55:58.274 [info] > git status -z -uall [6ms]
+2024-02-12 21:55:58.399 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [10ms]
+2024-02-12 21:55:58.413 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [1ms]
+2024-02-12 21:55:58.433 [info] > git show --textconv :index.html [2ms]
+2024-02-12 21:58:20.286 [info] > git config --get commit.template [8ms]
+2024-02-12 21:58:20.305 [info] No remotes found in the git config file.
+2024-02-12 21:58:20.310 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-12 21:58:20.325 [info] > git status -z -uall [5ms]
+2024-02-12 21:58:21.004 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [2ms]
+2024-02-12 21:58:21.042 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [5ms]
+2024-02-12 21:58:21.079 [info] > git show --textconv :index.html [7ms]
+2024-02-12 22:00:03.702 [info] > git config --get commit.template [10ms]
+2024-02-12 22:00:03.736 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-12 22:00:03.757 [info] > git status -z -uall [2ms]
+2024-02-12 22:03:48.138 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [613ms]
+2024-02-12 22:03:48.188 [info] > git config --local branch.main.vscode-merge-base [6ms]
+2024-02-12 22:03:48.188 [warning] git config failed: Failed to execute git
+2024-02-12 22:03:48.274 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [54ms]
+2024-02-12 22:03:48.305 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [8ms]
+2024-02-12 22:03:48.305 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:03:48.465 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [4ms]
+2024-02-12 22:03:48.496 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-02-12 22:03:48.496 [warning] git config failed: Failed to execute git
+2024-02-12 22:03:48.520 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [8ms]
+2024-02-12 22:03:48.541 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-02-12 22:03:48.541 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:03:50.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
+2024-02-12 22:03:50.993 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-12 22:03:50.993 [warning] git config failed: Failed to execute git
+2024-02-12 22:03:51.011 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [5ms]
+2024-02-12 22:03:51.024 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-02-12 22:03:51.024 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:03:51.046 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-12 22:03:51.062 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-12 22:03:51.062 [warning] git config failed: Failed to execute git
+2024-02-12 22:03:51.079 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [5ms]
+2024-02-12 22:03:51.093 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-12 22:03:51.093 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:03:53.041 [info] > git push -u origin main [2084ms]
+2024-02-12 22:03:53.041 [info] To https://github.com/Aman49362/amans.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Aman49362/amans.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2024-02-12 22:03:53.091 [info] > git config --get commit.template [25ms]
+2024-02-12 22:03:53.094 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-02-12 22:03:53.182 [info] > git status -z -uall [66ms]
+2024-02-12 22:03:53.280 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
+2024-02-12 22:03:53.306 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-02-12 22:03:53.307 [warning] git config failed: Failed to execute git
+2024-02-12 22:03:53.330 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [7ms]
+2024-02-12 22:03:53.349 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-02-12 22:03:53.349 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:03:53.376 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
+2024-02-12 22:03:53.392 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-02-12 22:03:53.392 [warning] git config failed: Failed to execute git
+2024-02-12 22:03:53.412 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [8ms]
+2024-02-12 22:03:53.425 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-12 22:03:53.425 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:04:04.858 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [6ms]
+2024-02-12 22:04:04.884 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-02-12 22:04:04.884 [warning] git config failed: Failed to execute git
+2024-02-12 22:04:04.913 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [7ms]
+2024-02-12 22:04:04.928 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-12 22:04:04.928 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:04:04.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [5ms]
+2024-02-12 22:04:04.979 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-12 22:04:04.979 [warning] git config failed: Failed to execute git
+2024-02-12 22:04:05.008 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [11ms]
+2024-02-12 22:04:05.023 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-02-12 22:04:05.023 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:04:06.244 [info] > git push -u origin main [1431ms]
+2024-02-12 22:04:06.244 [info] To https://github.com/Aman49362/amans.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Aman49362/amans.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2024-02-12 22:04:06.275 [info] > git config --get commit.template [15ms]
+2024-02-12 22:04:06.277 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-12 22:04:06.293 [info] > git status -z -uall [4ms]
+2024-02-12 22:04:06.327 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-12 22:04:06.351 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-02-12 22:04:06.351 [warning] git config failed: Failed to execute git
+2024-02-12 22:04:06.383 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [10ms]
+2024-02-12 22:04:06.415 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [10ms]
+2024-02-12 22:04:06.415 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:04:06.441 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
+2024-02-12 22:04:06.456 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-02-12 22:04:06.456 [warning] git config failed: Failed to execute git
+2024-02-12 22:04:06.473 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [8ms]
+2024-02-12 22:04:06.485 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-02-12 22:04:06.485 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:04:09.376 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [6ms]
+2024-02-12 22:04:09.402 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-02-12 22:04:09.402 [warning] git config failed: Failed to execute git
+2024-02-12 22:04:09.428 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [10ms]
+2024-02-12 22:04:09.449 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2024-02-12 22:04:09.449 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:04:34.980 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [4ms]
+2024-02-12 22:04:35.005 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-02-12 22:04:35.005 [warning] git config failed: Failed to execute git
+2024-02-12 22:04:35.029 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [9ms]
+2024-02-12 22:04:35.044 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-02-12 22:04:35.044 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:04:35.105 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [5ms]
+2024-02-12 22:04:35.122 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-02-12 22:04:35.122 [warning] git config failed: Failed to execute git
+2024-02-12 22:04:35.141 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [9ms]
+2024-02-12 22:04:35.157 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2024-02-12 22:04:35.157 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:04:36.285 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [16ms]
+2024-02-12 22:04:36.322 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-02-12 22:04:36.322 [warning] git config failed: Failed to execute git
+2024-02-12 22:04:36.352 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [7ms]
+2024-02-12 22:04:36.368 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-02-12 22:04:36.368 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:04:36.394 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
+2024-02-12 22:04:36.411 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-12 22:04:36.411 [warning] git config failed: Failed to execute git
+2024-02-12 22:04:36.430 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [5ms]
+2024-02-12 22:04:36.445 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-02-12 22:04:36.445 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:04:37.788 [info] > git push -u origin main [1552ms]
+2024-02-12 22:04:37.788 [info] To https://github.com/Aman49362/amans.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Aman49362/amans.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2024-02-12 22:04:37.814 [info] > git config --get commit.template [14ms]
+2024-02-12 22:04:37.814 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-12 22:04:37.829 [info] > git status -z -uall [3ms]
+2024-02-12 22:04:37.852 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [4ms]
+2024-02-12 22:04:37.876 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-02-12 22:04:37.876 [warning] git config failed: Failed to execute git
+2024-02-12 22:04:37.902 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [9ms]
+2024-02-12 22:04:37.938 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [15ms]
+2024-02-12 22:04:37.938 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:04:37.964 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
+2024-02-12 22:04:37.981 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-12 22:04:37.981 [warning] git config failed: Failed to execute git
+2024-02-12 22:04:38.000 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [6ms]
+2024-02-12 22:04:38.014 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-12 22:04:38.014 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:05:24.461 [info] > git add -A -- . [1024ms]
+2024-02-12 22:05:24.630 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [1154ms]
+2024-02-12 22:05:24.645 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-12 22:05:24.645 [warning] git config failed: Failed to execute git
+2024-02-12 22:05:25.157 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [500ms]
+2024-02-12 22:05:25.182 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2024-02-12 22:05:25.182 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:05:25.222 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [6ms]
+2024-02-12 22:05:25.259 [info] > git config --local branch.main.vscode-merge-base [6ms]
+2024-02-12 22:05:25.259 [warning] git config failed: Failed to execute git
+2024-02-12 22:05:25.286 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [9ms]
+2024-02-12 22:05:25.299 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-12 22:05:25.299 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:05:27.473 [info] > git show --textconv :.git/COMMIT_EDITMSG [14ms]
+2024-02-12 22:05:27.475 [info] > git ls-files --stage -- /home/m/Documents/prg/.git/COMMIT_EDITMSG [4ms]
+2024-02-12 22:05:27.845 [info] > git check-ignore -v -z --stdin [6ms]
+2024-02-12 22:05:34.870 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [4ms]
+2024-02-12 22:05:34.892 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-12 22:05:34.892 [warning] git config failed: Failed to execute git
+2024-02-12 22:05:34.911 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [5ms]
+2024-02-12 22:05:34.924 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2024-02-12 22:05:34.924 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:05:36.170 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [10ms]
+2024-02-12 22:05:36.195 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-02-12 22:05:36.195 [warning] git config failed: Failed to execute git
+2024-02-12 22:05:36.222 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [10ms]
+2024-02-12 22:05:36.244 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2024-02-12 22:05:36.244 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:05:36.281 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-12 22:05:36.301 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-02-12 22:05:36.301 [warning] git config failed: Failed to execute git
+2024-02-12 22:05:36.326 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [9ms]
+2024-02-12 22:05:36.340 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [5ms]
+2024-02-12 22:05:36.340 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:05:52.727 [info] > git show --textconv :.git/COMMIT_EDITMSG [41ms]
+2024-02-12 22:05:52.728 [info] > git ls-files --stage -- /home/m/Documents/prg/.git/COMMIT_EDITMSG [11ms]
+2024-02-12 22:05:54.008 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [4ms]
+2024-02-12 22:05:54.031 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-02-12 22:05:54.031 [warning] git config failed: Failed to execute git
+2024-02-12 22:05:54.062 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [10ms]
+2024-02-12 22:05:54.082 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-12 22:05:54.082 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:06:00.921 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty [36425ms]
+2024-02-12 22:06:00.921 [info] Aborting commit due to empty commit message.
+2024-02-12 22:06:00.964 [info] > git config --get commit.template [27ms]
+2024-02-12 22:06:00.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-12 22:06:00.982 [info] > git status -z -uall [2ms]
+2024-02-12 22:06:10.064 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
+2024-02-12 22:06:10.080 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-02-12 22:06:10.080 [warning] git config failed: Failed to execute git
+2024-02-12 22:06:10.102 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [11ms]
+2024-02-12 22:06:10.118 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-02-12 22:06:10.118 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:06:10.140 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [6ms]
+2024-02-12 22:06:10.157 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-02-12 22:06:10.157 [warning] git config failed: Failed to execute git
+2024-02-12 22:06:10.175 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [8ms]
+2024-02-12 22:06:10.185 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-12 22:06:10.186 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:06:10.932 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [7ms]
+2024-02-12 22:06:10.948 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-12 22:06:10.948 [warning] git config failed: Failed to execute git
+2024-02-12 22:06:10.965 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [6ms]
+2024-02-12 22:06:10.982 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-12 22:06:10.982 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:06:11.008 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [5ms]
+2024-02-12 22:06:11.020 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-12 22:06:11.020 [warning] git config failed: Failed to execute git
+2024-02-12 22:06:11.036 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [5ms]
+2024-02-12 22:06:11.049 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-12 22:06:11.049 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:06:12.970 [info] > git push -u origin main [2058ms]
+2024-02-12 22:06:12.970 [info] To https://github.com/Aman49362/amans.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Aman49362/amans.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2024-02-12 22:06:13.017 [info] > git config --get commit.template [19ms]
+2024-02-12 22:06:13.018 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-12 22:06:13.040 [info] > git status -z -uall [5ms]
+2024-02-12 22:06:13.092 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [23ms]
+2024-02-12 22:06:13.131 [info] > git config --local branch.main.vscode-merge-base [9ms]
+2024-02-12 22:06:13.132 [warning] git config failed: Failed to execute git
+2024-02-12 22:06:13.181 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [20ms]
+2024-02-12 22:06:13.195 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-02-12 22:06:13.195 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:06:13.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
+2024-02-12 22:06:13.231 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-02-12 22:06:13.231 [warning] git config failed: Failed to execute git
+2024-02-12 22:06:13.250 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [5ms]
+2024-02-12 22:06:13.266 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-02-12 22:06:13.266 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:06:16.619 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [10ms]
+2024-02-12 22:06:16.653 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-02-12 22:06:16.653 [warning] git config failed: Failed to execute git
+2024-02-12 22:06:16.682 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [10ms]
+2024-02-12 22:06:16.698 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-12 22:06:16.698 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:06:16.717 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-12 22:06:16.733 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-12 22:06:16.733 [warning] git config failed: Failed to execute git
+2024-02-12 22:06:16.767 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [13ms]
+2024-02-12 22:06:16.795 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-12 22:06:16.795 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:06:18.397 [info] > git push -u origin main [1817ms]
+2024-02-12 22:06:18.397 [info] To https://github.com/Aman49362/amans.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Aman49362/amans.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2024-02-12 22:06:18.458 [info] > git config --get commit.template [24ms]
+2024-02-12 22:06:18.460 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-02-12 22:06:18.475 [info] > git status -z -uall [4ms]
+2024-02-12 22:06:18.501 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
+2024-02-12 22:06:18.526 [info] > git config --local branch.main.vscode-merge-base [6ms]
+2024-02-12 22:06:18.526 [warning] git config failed: Failed to execute git
+2024-02-12 22:06:18.593 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [49ms]
+2024-02-12 22:06:18.608 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [5ms]
+2024-02-12 22:06:18.608 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:06:18.627 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
+2024-02-12 22:06:18.645 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-12 22:06:18.646 [warning] git config failed: Failed to execute git
+2024-02-12 22:06:18.664 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [5ms]
+2024-02-12 22:06:18.679 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-12 22:06:18.679 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:06:23.216 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
+2024-02-12 22:06:23.235 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-12 22:06:23.235 [warning] git config failed: Failed to execute git
+2024-02-12 22:06:23.258 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [8ms]
+2024-02-12 22:06:23.276 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2024-02-12 22:06:23.276 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-12 22:06:27.509 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [5ms]
+2024-02-12 22:06:27.615 [info] > git show --textconv :index.html [125ms]
+2024-02-12 22:06:27.616 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [99ms]
+2024-02-12 22:07:58.997 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-02-12 22:07:58.997 [info] > git config --get commit.template [36ms]
+2024-02-12 22:07:59.006 [info] > git check-ignore -v -z --stdin [12ms]
+2024-02-12 22:07:59.008 [info] > git status -z -uall [3ms]
+2024-02-12 22:08:08.845 [info] > git config --get commit.template [19ms]
+2024-02-12 22:08:08.846 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-12 22:08:08.867 [info] > git status -z -uall [3ms]
+2024-02-12 22:08:08.921 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [2ms]
+2024-02-12 22:08:08.935 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [4ms]
+2024-02-12 22:08:08.951 [info] > git show --textconv :index.html [3ms]
+2024-02-12 22:08:41.308 [info] > git config --get commit.template [19ms]
+2024-02-12 22:08:41.310 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-12 22:08:41.324 [info] > git status -z -uall [3ms]
+2024-02-12 22:08:41.380 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [1ms]
+2024-02-12 22:08:41.389 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [2ms]
+2024-02-12 22:08:41.401 [info] > git show --textconv :index.html [2ms]
+2024-02-12 22:08:49.216 [info] > git config --get commit.template [9ms]
+2024-02-12 22:08:49.217 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-12 22:08:49.226 [info] > git status -z -uall [2ms]
+2024-02-12 22:08:49.309 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [1ms]
+2024-02-12 22:08:49.318 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [2ms]
+2024-02-12 22:08:49.330 [info] > git show --textconv :index.html [2ms]
+2024-02-12 22:08:57.982 [info] > git config --get commit.template [6ms]
+2024-02-12 22:08:58.032 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [27ms]
+2024-02-12 22:08:58.065 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [34ms]
+2024-02-12 22:08:58.088 [info] > git status -z -uall [29ms]
+2024-02-12 22:08:58.097 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [9ms]
+2024-02-12 22:08:58.120 [info] > git show --textconv :index.html [2ms]
+2024-02-12 22:09:16.098 [info] > git config --get commit.template [18ms]
+2024-02-12 22:09:16.100 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-12 22:09:16.114 [info] > git status -z -uall [3ms]
+2024-02-12 22:09:16.181 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [3ms]
+2024-02-12 22:09:16.195 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [3ms]
+2024-02-12 22:09:16.210 [info] > git show --textconv :index.html [2ms]
+2024-02-12 22:09:34.715 [info] > git config --get commit.template [28ms]
+2024-02-12 22:09:34.717 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [16ms]
+2024-02-12 22:09:34.730 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-02-12 22:09:34.731 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [6ms]
+2024-02-12 22:09:34.757 [info] > git status -z -uall [16ms]
+2024-02-12 22:09:34.764 [info] > git show --textconv :index.html [8ms]
+2024-02-12 22:09:58.323 [info] > git config --get commit.template [30ms]
+2024-02-12 22:09:58.354 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [33ms]
+2024-02-12 22:09:58.355 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [3ms]
+2024-02-12 22:09:58.387 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [17ms]
+2024-02-12 22:09:58.389 [info] > git status -z -uall [3ms]
+2024-02-12 22:09:58.422 [info] > git show --textconv :index.html [3ms]
+2024-02-12 22:10:07.185 [info] > git show --textconv :index.html [29ms]
+2024-02-12 22:10:07.189 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [9ms]
+2024-02-12 22:10:07.217 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [7ms]
+2024-02-12 22:10:12.430 [info] > git show --textconv :README.md [28ms]
+2024-02-12 22:10:12.431 [info] > git ls-files --stage -- /home/m/Documents/prg/README.md [3ms]
+2024-02-12 22:10:12.459 [info] > git cat-file -s 7446a54f53c403008ed2f4f6093251d61fc99436 [6ms]
+2024-02-12 22:10:18.486 [info] > git ls-files --stage -- /home/m/Documents/prg/script.js [338ms]
+2024-02-12 22:10:18.573 [info] > git cat-file -s ac47efd62eee19f0450f3af535bd53a2831b7098 [50ms]
+2024-02-12 22:10:18.585 [info] > git show --textconv :script.js [476ms]
+2024-02-12 22:10:19.457 [info] > git ls-files --stage -- /home/m/Documents/prg/style.css [9ms]
+2024-02-12 22:10:19.516 [info] > git show --textconv :style.css [164ms]
+2024-02-12 22:10:19.533 [info] > git cat-file -s f3825de337e2e61ace18eb515bc82da998a9e978 [18ms]
+2024-02-12 22:10:23.084 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [9ms]
+2024-02-12 22:10:23.122 [info] > git show --textconv :index.html [70ms]
+2024-02-12 22:10:23.122 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [19ms]
+2024-02-12 22:10:23.946 [info] > git ls-files --stage -- /home/m/Documents/prg/README.md [12ms]
+2024-02-12 22:10:23.969 [info] > git show --textconv :README.md [75ms]
+2024-02-12 22:10:23.985 [info] > git cat-file -s 7446a54f53c403008ed2f4f6093251d61fc99436 [17ms]
+2024-02-12 22:10:25.844 [info] > git show --textconv :index.html [12ms]
+2024-02-12 22:10:25.848 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [6ms]
+2024-02-12 22:10:25.864 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [5ms]
+2024-02-12 22:10:29.525 [info] > git ls-files --stage -- /home/m/Documents/prg/script.js [2ms]
+2024-02-12 22:10:29.565 [info] > git show --textconv :script.js [58ms]
+2024-02-12 22:10:29.566 [info] > git cat-file -s ac47efd62eee19f0450f3af535bd53a2831b7098 [29ms]
+2024-02-12 22:10:30.043 [info] > git show --textconv :style.css [25ms]
+2024-02-12 22:10:30.049 [info] > git ls-files --stage -- /home/m/Documents/prg/style.css [7ms]
+2024-02-12 22:10:30.086 [info] > git cat-file -s f3825de337e2e61ace18eb515bc82da998a9e978 [13ms]
+2024-02-12 22:10:30.892 [info] > git show --textconv :index.html [10ms]
+2024-02-12 22:10:30.897 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [5ms]
+2024-02-12 22:10:30.918 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [7ms]
+2024-02-12 22:14:10.024 [info] > git ls-files --stage -- /home/m/Documents/prg/style.css [8ms]
+2024-02-12 22:14:10.071 [info] > git show --textconv :style.css [71ms]
+2024-02-12 22:14:10.074 [info] > git cat-file -s f3825de337e2e61ace18eb515bc82da998a9e978 [8ms]
+2024-02-12 22:14:12.693 [info] > git show --textconv :index.html [20ms]
+2024-02-12 22:14:12.696 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [4ms]
+2024-02-12 22:14:12.715 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [3ms]
+2024-02-12 22:14:15.094 [info] > git show --textconv :script.js [17ms]
+2024-02-12 22:14:15.096 [info] > git ls-files --stage -- /home/m/Documents/prg/script.js [4ms]
+2024-02-12 22:14:15.112 [info] > git cat-file -s ac47efd62eee19f0450f3af535bd53a2831b7098 [3ms]
+2024-02-12 22:14:16.329 [info] > git show --textconv :index.html [42ms]
+2024-02-12 22:14:16.340 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [11ms]
+2024-02-12 22:14:16.365 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [4ms]
+2024-02-12 22:15:01.695 [info] > git show --textconv :script.js [0ms]
+2024-02-12 22:15:01.728 [info] > git ls-files --stage -- /home/m/Documents/prg/script.js [2ms]
+2024-02-12 22:15:01.760 [info] > git cat-file -s ac47efd62eee19f0450f3af535bd53a2831b7098 [12ms]
+2024-02-12 22:15:02.324 [info] > git show --textconv :style.css [22ms]
+2024-02-12 22:15:02.327 [info] > git ls-files --stage -- /home/m/Documents/prg/style.css [5ms]
+2024-02-12 22:15:02.343 [info] > git cat-file -s f3825de337e2e61ace18eb515bc82da998a9e978 [2ms]
+2024-02-12 22:16:51.817 [info] > git show --textconv :index.html [28ms]
+2024-02-12 22:16:51.822 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [5ms]
+2024-02-12 22:16:51.851 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [5ms]
+2024-02-12 22:16:59.006 [info] > git show --textconv :style.css [25ms]
+2024-02-12 22:16:59.011 [info] > git ls-files --stage -- /home/m/Documents/prg/style.css [6ms]
+2024-02-12 22:16:59.048 [info] > git cat-file -s f3825de337e2e61ace18eb515bc82da998a9e978 [13ms]
+2024-02-12 22:18:41.879 [info] > git show --textconv :index.html [17ms]
+2024-02-12 22:18:41.882 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [5ms]
+2024-02-12 22:18:41.902 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [3ms]
+2024-02-12 22:26:09.384 [info] > git ls-files --stage -- /home/m/Documents/prg/style.css [318ms]
+2024-02-12 22:26:09.451 [info] > git show --textconv :style.css [425ms]
+2024-02-12 22:26:09.459 [info] > git cat-file -s f3825de337e2e61ace18eb515bc82da998a9e978 [9ms]
+2024-02-12 22:31:02.304 [info] > git ls-files --stage -- /home/m/Documents/prg/script.js [2ms]
+2024-02-12 22:31:02.334 [info] > git show --textconv :script.js [44ms]
+2024-02-12 22:31:02.337 [info] > git cat-file -s ac47efd62eee19f0450f3af535bd53a2831b7098 [22ms]
+2024-02-12 22:31:02.870 [info] > git show --textconv :index.html [24ms]
+2024-02-12 22:31:02.871 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [2ms]
+2024-02-12 22:31:02.895 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [5ms]
+2024-02-12 22:31:03.619 [info] > git show --textconv :style.css [27ms]
+2024-02-12 22:31:03.623 [info] > git ls-files --stage -- /home/m/Documents/prg/style.css [4ms]
+2024-02-12 22:31:03.650 [info] > git cat-file -s f3825de337e2e61ace18eb515bc82da998a9e978 [7ms]
+2024-02-12 22:31:04.098 [info] > git ls-files --stage -- /home/m/Documents/prg/README.md [4ms]
+2024-02-12 22:31:04.147 [info] > git show --textconv :README.md [72ms]
+2024-02-12 22:31:04.148 [info] > git cat-file -s 7446a54f53c403008ed2f4f6093251d61fc99436 [34ms]
+2024-02-12 22:31:05.600 [info] > git show --textconv :script.js [27ms]
+2024-02-12 22:31:05.605 [info] > git ls-files --stage -- /home/m/Documents/prg/script.js [8ms]
+2024-02-12 22:31:05.641 [info] > git cat-file -s ac47efd62eee19f0450f3af535bd53a2831b7098 [12ms]
+2024-02-12 22:31:06.390 [info] > git show --textconv :index.html [38ms]
+2024-02-12 22:31:06.392 [info] > git ls-files --stage -- /home/m/Documents/prg/index.html [7ms]
+2024-02-12 22:31:06.421 [info] > git cat-file -s 93318c81590f6147502594274a20663852e4e20f [9ms]
+2024-02-12 22:31:07.270 [info] > git show --textconv :script.js [33ms]
+2024-02-12 22:31:07.283 [info] > git ls-files --stage -- /home/m/Documents/prg/script.js [15ms]
+2024-02-12 22:31:07.310 [info] > git cat-file -s ac47efd62eee19f0450f3af535bd53a2831b7098 [3ms]
+2024-02-12 22:31:07.648 [info] > git show --textconv :style.css [38ms]
+2024-02-12 22:31:07.656 [info] > git ls-files --stage -- /home/m/Documents/prg/style.css [12ms]
+2024-02-12 22:31:07.686 [info] > git cat-file -s f3825de337e2e61ace18eb515bc82da998a9e978 [3ms]
+2024-02-12 22:31:08.210 [info] > git show --textconv :README.md [23ms]
+2024-02-12 22:31:08.213 [info] > git ls-files --stage -- /home/m/Documents/prg/README.md [4ms]
+2024-02-12 22:31:08.257 [info] > git cat-file -s 7446a54f53c403008ed2f4f6093251d61fc99436 [19ms]
+2024-02-12 22:31:13.741 [info] > git show --textconv :style.css [14ms]
+2024-02-12 22:31:13.743 [info] > git ls-files --stage -- /home/m/Documents/prg/style.css [2ms]
+2024-02-12 22:31:13.758 [info] > git cat-file -s f3825de337e2e61ace18eb515bc82da998a9e978 [3ms]
+2024-02-12 22:31:14.311 [info] > git show --textconv :README.md [20ms]
+2024-02-12 22:31:14.316 [info] > git ls-files --stage -- /home/m/Documents/prg/README.md [7ms]
+2024-02-12 22:31:14.337 [info] > git cat-file -s 7446a54f53c403008ed2f4f6093251d61fc99436 [6ms]
+2024-02-12 22:31:14.851 [info] > git show --textconv :style.css [19ms]
+2024-02-12 22:31:14.854 [info] > git ls-files --stage -- /home/m/Documents/prg/style.css [4ms]
+2024-02-12 22:31:14.873 [info] > git cat-file -s f3825de337e2e61ace18eb515bc82da998a9e978 [3ms]

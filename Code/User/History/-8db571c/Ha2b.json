@@ -1,0 +1,13 @@
+{
+    "editor.fontFamily": "fira code",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "settingsSync.ignoredSettings": [
+        "editor.fontFamily"
+    ],
+
+    "workbench.iconTheme": "fira-code-material-minimal",
+    "editor.fontFamily": "fira-code-nerd, FiraCode Nerd Font, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.mouseWheelZoom": true
+}

@@ -1,0 +1,6 @@
+2024-02-12 21:47:31.235 [info] update#setState idle
+2024-02-12 21:47:46.377 [info] Extension host with pid 28551 exited with code: 0, signal: unknown.
+2024-02-12 21:48:01.239 [info] update#setState checking for updates
+2024-02-12 21:48:01.328 [info] update#setState idle
+2024-02-12 22:32:11.077 [info] Extension host with pid 28571 exited with code: 0, signal: unknown.
+2024-02-12 22:32:13.427 [warning] [storage main] detected slow close() operation: Time: 2836ms, DB size: 991232b, Large Keys: iconThemeData:785538, talhabalaj.actual-font-changer:41184, colorThemeData:7936, workbench.activity.placeholderViewlets:4088, editorFontInfo:3448

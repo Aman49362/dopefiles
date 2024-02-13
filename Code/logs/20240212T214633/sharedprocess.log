@@ -1,0 +1,23 @@
+2024-02-12 21:46:45.538 [info] Deleted uninstalled extension from disk maxmckinney.theme-smooth-yellow /home/m/.vscode/extensions/maxmckinney.theme-smooth-yellow-1.11.0
+2024-02-12 21:46:45.561 [info] Deleted uninstalled extension from disk piesarentsquare.smooth-dark /home/m/.vscode/extensions/piesarentsquare.smooth-dark-0.1.7
+2024-02-12 21:46:45.567 [info] Deleted uninstalled extension from disk idbartosz.darkpp-italic /home/m/.vscode/extensions/idbartosz.darkpp-italic-0.2.0
+2024-02-12 21:46:45.772 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/maxmckinney.theme-smooth-yellow-1.11.0.-4296b492.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/maxmckinney.theme-smooth-yellow-1.11.0.-4296b492.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 21:46:45.864 [info] Deleted uninstalled extension from disk rampus-bit.cascade /home/m/.vscode/extensions/rampus-bit.cascade-1.2.5
+2024-02-12 21:46:46.058 [info] Deleted uninstalled extension from disk aleleba.fira-code-material-icon-theme /home/m/.vscode/extensions/aleleba.fira-code-material-icon-theme-1.0.3
+2024-02-12 21:46:48.319 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4959)
+    at E.t (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at w.value (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.de (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30422)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)

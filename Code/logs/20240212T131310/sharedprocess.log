@@ -1,0 +1,350 @@
+2024-02-12 13:13:23.986 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4959)
+    at E.t (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at w.value (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.de (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30422)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-02-12 13:20:09.882 [info] Getting Manifest... piesarentsquare.smooth-dark
+2024-02-12 13:20:09.920 [info] Installing extension: piesarentsquare.smooth-dark
+2024-02-12 13:20:11.382 [warning] Extension signature verification failed with error 'UnknownError': piesarentsquare.smooth-dark
+2024-02-12 13:20:11.471 [info] Extracted extension to file:///home/m/.vscode/extensions/piesarentsquare.smooth-dark-0.1.7: piesarentsquare.smooth-dark
+2024-02-12 13:20:11.525 [info] Renamed to /home/m/.vscode/extensions/piesarentsquare.smooth-dark-0.1.7
+2024-02-12 13:20:11.529 [info] Extracting extension completed. piesarentsquare.smooth-dark
+2024-02-12 13:20:11.610 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 13:20:11.614 [info] Extension installed successfully: piesarentsquare.smooth-dark
+2024-02-12 13:20:33.709 [info] Uninstalling extension from the profile: piesarentsquare.smooth-dark@0.1.7 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:20:33.848 [info] Marked extension as uninstalled piesarentsquare.smooth-dark-0.1.7
+2024-02-12 13:20:34.212 [info] Successfully uninstalled extension from the profile piesarentsquare.smooth-dark@0.1.7 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:20:44.738 [info] Getting Manifest... maxmckinney.theme-smooth-yellow
+2024-02-12 13:20:44.756 [info] Installing extension: maxmckinney.theme-smooth-yellow
+2024-02-12 13:20:45.757 [warning] Extension signature verification failed with error 'UnknownError': maxmckinney.theme-smooth-yellow
+2024-02-12 13:20:45.816 [info] Extracted extension to file:///home/m/.vscode/extensions/maxmckinney.theme-smooth-yellow-1.11.0: maxmckinney.theme-smooth-yellow
+2024-02-12 13:20:45.878 [info] Renamed to /home/m/.vscode/extensions/maxmckinney.theme-smooth-yellow-1.11.0
+2024-02-12 13:20:45.882 [info] Extracting extension completed. maxmckinney.theme-smooth-yellow
+2024-02-12 13:20:45.946 [info] Extension installed successfully: maxmckinney.theme-smooth-yellow
+2024-02-12 13:20:45.950 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 13:21:04.806 [info] Uninstalling extension from the profile: maxmckinney.theme-smooth-yellow@1.11.0 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:21:04.963 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 13:21:04.974 [info] Marked extension as uninstalled maxmckinney.theme-smooth-yellow-1.11.0
+2024-02-12 13:21:05.319 [info] Successfully uninstalled extension from the profile maxmckinney.theme-smooth-yellow@1.11.0 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:21:29.028 [info] Getting Manifest... entuent.fira-code-nerd-font
+2024-02-12 13:21:29.051 [info] Installing extension: entuent.fira-code-nerd-font
+2024-02-12 13:21:30.251 [warning] Extension signature verification failed with error 'UnknownError': entuent.fira-code-nerd-font
+2024-02-12 13:21:30.365 [info] Extracted extension to file:///home/m/.vscode/extensions/entuent.fira-code-nerd-font-0.0.3: entuent.fira-code-nerd-font
+2024-02-12 13:21:30.404 [info] Renamed to /home/m/.vscode/extensions/entuent.fira-code-nerd-font-0.0.3
+2024-02-12 13:21:30.410 [info] Extracting extension completed. entuent.fira-code-nerd-font
+2024-02-12 13:21:30.478 [info] Extension installed successfully: entuent.fira-code-nerd-font
+2024-02-12 13:24:44.556 [info] Getting Manifest... cyansprite.smoothscroll
+2024-02-12 13:24:44.581 [info] Installing extension: cyansprite.smoothscroll
+2024-02-12 13:24:45.982 [warning] Extension signature verification failed with error 'UnknownError': cyansprite.smoothscroll
+2024-02-12 13:24:46.022 [info] Extracted extension to file:///home/m/.vscode/extensions/cyansprite.smoothscroll-1.0.4: cyansprite.smoothscroll
+2024-02-12 13:24:46.067 [info] Renamed to /home/m/.vscode/extensions/cyansprite.smoothscroll-1.0.4
+2024-02-12 13:24:46.070 [info] Extracting extension completed. cyansprite.smoothscroll
+2024-02-12 13:24:46.143 [info] Extension installed successfully: cyansprite.smoothscroll
+2024-02-12 13:24:46.168 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 13:27:26.865 [info] Getting Manifest... aleleba.fira-code-material-icon-theme
+2024-02-12 13:27:26.892 [info] Installing extension: aleleba.fira-code-material-icon-theme
+2024-02-12 13:27:28.873 [warning] Extension signature verification failed with error 'UnknownError': aleleba.fira-code-material-icon-theme
+2024-02-12 13:27:30.553 [info] Extracted extension to file:///home/m/.vscode/extensions/aleleba.fira-code-material-icon-theme-1.0.3: aleleba.fira-code-material-icon-theme
+2024-02-12 13:27:30.612 [info] Renamed to /home/m/.vscode/extensions/aleleba.fira-code-material-icon-theme-1.0.3
+2024-02-12 13:27:30.618 [info] Extracting extension completed. aleleba.fira-code-material-icon-theme
+2024-02-12 13:27:30.691 [info] Extension installed successfully: aleleba.fira-code-material-icon-theme
+2024-02-12 13:27:30.712 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 13:27:58.355 [info] Getting Manifest... idbartosz.darkpp-italic
+2024-02-12 13:27:58.378 [info] Installing extension: idbartosz.darkpp-italic
+2024-02-12 13:27:59.583 [warning] Extension signature verification failed with error 'UnknownError': idbartosz.darkpp-italic
+2024-02-12 13:27:59.641 [info] Extracted extension to file:///home/m/.vscode/extensions/idbartosz.darkpp-italic-0.2.0: idbartosz.darkpp-italic
+2024-02-12 13:27:59.696 [info] Renamed to /home/m/.vscode/extensions/idbartosz.darkpp-italic-0.2.0
+2024-02-12 13:27:59.703 [info] Extracting extension completed. idbartosz.darkpp-italic
+2024-02-12 13:27:59.780 [info] Extension installed successfully: idbartosz.darkpp-italic
+2024-02-12 13:28:23.693 [info] Uninstalling extension from the profile: idbartosz.darkpp-italic@0.2.0 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:28:23.824 [info] Marked extension as uninstalled idbartosz.darkpp-italic-0.2.0
+2024-02-12 13:28:23.835 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 13:28:24.208 [info] Successfully uninstalled extension from the profile idbartosz.darkpp-italic@0.2.0 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:30:34.021 [info] Uninstalling extension from the profile: aleleba.fira-code-material-icon-theme@1.0.3 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:30:34.163 [info] Marked extension as uninstalled aleleba.fira-code-material-icon-theme-1.0.3
+2024-02-12 13:30:34.175 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 13:30:35.177 [info] Successfully uninstalled extension from the profile aleleba.fira-code-material-icon-theme@1.0.3 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:30:43.235 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4959)
+    at E.t (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at w.value (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.de (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30422)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-02-12 13:47:02.310 [info] Getting Manifest... rampus-bit.cascade
+2024-02-12 13:47:02.390 [info] Installing extension: rampus-bit.cascade
+2024-02-12 13:47:03.860 [warning] Extension signature verification failed with error 'UnknownError': rampus-bit.cascade
+2024-02-12 13:47:04.043 [info] Extracted extension to file:///home/m/.vscode/extensions/rampus-bit.cascade-1.2.5: rampus-bit.cascade
+2024-02-12 13:47:04.135 [info] Renamed to /home/m/.vscode/extensions/rampus-bit.cascade-1.2.5
+2024-02-12 13:47:04.138 [info] Extracting extension completed. rampus-bit.cascade
+2024-02-12 13:47:04.223 [info] Extension installed successfully: rampus-bit.cascade
+2024-02-12 13:47:04.229 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 13:47:27.075 [info] Uninstalling extension from the profile: rampus-bit.cascade@1.2.5 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:47:27.194 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 13:47:27.208 [info] Marked extension as uninstalled rampus-bit.cascade-1.2.5
+2024-02-12 13:47:27.607 [info] Successfully uninstalled extension from the profile rampus-bit.cascade@1.2.5 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:47:29.610 [info] Getting Manifest... willjsaint.cascade-dark
+2024-02-12 13:47:29.645 [info] Installing extension: willjsaint.cascade-dark
+2024-02-12 13:47:30.577 [warning] Extension signature verification failed with error 'UnknownError': willjsaint.cascade-dark
+2024-02-12 13:47:30.603 [info] Extracted extension to file:///home/m/.vscode/extensions/willjsaint.cascade-dark-0.0.2: willjsaint.cascade-dark
+2024-02-12 13:47:30.661 [info] Renamed to /home/m/.vscode/extensions/willjsaint.cascade-dark-0.0.2
+2024-02-12 13:47:30.668 [info] Extracting extension completed. willjsaint.cascade-dark
+2024-02-12 13:47:30.744 [info] Extension installed successfully: willjsaint.cascade-dark
+2024-02-12 13:47:30.761 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 13:52:15.681 [info] Getting Manifest... seyyedkhandon.tpack
+2024-02-12 13:52:15.716 [info] Installing extension: seyyedkhandon.tpack
+2024-02-12 13:52:16.404 [info] Getting Manifest... pkief.material-icon-theme
+2024-02-12 13:52:16.484 [info] Getting Manifest... zhuangtongfa.material-theme
+2024-02-12 13:52:16.519 [info] Getting Manifest... seyyedkhandon.firacode
+2024-02-12 13:52:16.736 [info] Installing extension: pkief.material-icon-theme seyyedkhandon.tpack
+2024-02-12 13:52:16.736 [info] Installing extension: zhuangtongfa.material-theme seyyedkhandon.tpack
+2024-02-12 13:52:16.736 [info] Installing extension: seyyedkhandon.firacode seyyedkhandon.tpack
+2024-02-12 13:52:17.907 [warning] Extension signature verification failed with error 'UnknownError': zhuangtongfa.material-theme
+2024-02-12 13:52:18.002 [warning] Extension signature verification failed with error 'UnknownError': pkief.material-icon-theme
+2024-02-12 13:52:18.061 [warning] Extension signature verification failed with error 'UnknownError': seyyedkhandon.firacode
+2024-02-12 13:52:18.265 [info] Extracted extension to file:///home/m/.vscode/extensions/seyyedkhandon.firacode-2.2.1: seyyedkhandon.firacode
+2024-02-12 13:52:18.296 [info] Extracted extension to file:///home/m/.vscode/extensions/zhuangtongfa.material-theme-3.16.2: zhuangtongfa.material-theme
+2024-02-12 13:52:18.360 [info] Renamed to /home/m/.vscode/extensions/seyyedkhandon.firacode-2.2.1
+2024-02-12 13:52:18.365 [info] Extracting extension completed. seyyedkhandon.firacode
+2024-02-12 13:52:18.380 [info] Renamed to /home/m/.vscode/extensions/zhuangtongfa.material-theme-3.16.2
+2024-02-12 13:52:18.385 [info] Extracting extension completed. zhuangtongfa.material-theme
+2024-02-12 13:52:18.451 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 13:52:19.430 [info] Extracted extension to file:///home/m/.vscode/extensions/pkief.material-icon-theme-4.33.0: pkief.material-icon-theme
+2024-02-12 13:52:19.477 [info] Renamed to /home/m/.vscode/extensions/pkief.material-icon-theme-4.33.0
+2024-02-12 13:52:19.482 [info] Extracting extension completed. pkief.material-icon-theme
+2024-02-12 13:52:19.588 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 13:52:20.463 [warning] Extension signature verification failed with error 'UnknownError': seyyedkhandon.tpack
+2024-02-12 13:52:20.640 [info] Extracted extension to file:///home/m/.vscode/extensions/seyyedkhandon.tpack-2.0.4: seyyedkhandon.tpack
+2024-02-12 13:52:20.701 [info] Renamed to /home/m/.vscode/extensions/seyyedkhandon.tpack-2.0.4
+2024-02-12 13:52:20.703 [info] Extracting extension completed. seyyedkhandon.tpack
+2024-02-12 13:52:20.777 [info] Extension installed successfully: seyyedkhandon.firacode
+2024-02-12 13:52:20.777 [info] Extension installed successfully: zhuangtongfa.material-theme
+2024-02-12 13:52:20.778 [info] Extension installed successfully: pkief.material-icon-theme
+2024-02-12 13:52:20.779 [info] Extension installed successfully: seyyedkhandon.tpack
+2024-02-12 13:52:20.793 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 13:52:35.588 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4959)
+    at E.t (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at w.value (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.de (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30422)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-02-12 13:54:20.865 [info] Uninstalling extension from the profile: seyyedkhandon.tpack@2.0.4 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:54:20.957 [info] Uninstalling extension from the profile: pkief.material-icon-theme@4.33.0 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:54:20.958 [info] Uninstalling extension from the profile: seyyedkhandon.firacode@2.2.1 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:54:20.958 [info] Uninstalling extension from the profile: zhuangtongfa.material-theme@3.16.2 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:54:21.056 [info] Marked extension as uninstalled seyyedkhandon.tpack-2.0.4
+2024-02-12 13:54:21.171 [info] Marked extension as uninstalled pkief.material-icon-theme-4.33.0
+2024-02-12 13:54:21.287 [info] Marked extension as uninstalled seyyedkhandon.firacode-2.2.1
+2024-02-12 13:54:21.344 [info] Successfully uninstalled extension from the profile seyyedkhandon.tpack@2.0.4 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:54:21.437 [info] Successfully uninstalled extension from the profile pkief.material-icon-theme@4.33.0 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:54:21.759 [info] Marked extension as uninstalled zhuangtongfa.material-theme-3.16.2
+2024-02-12 13:54:21.821 [info] Successfully uninstalled extension from the profile zhuangtongfa.material-theme@3.16.2 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:54:22.231 [info] Successfully uninstalled extension from the profile seyyedkhandon.firacode@2.2.1 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:54:22.863 [info] Getting Manifest... seyyedkhandon.tpack
+2024-02-12 13:54:22.886 [info] Installing extension: seyyedkhandon.tpack
+2024-02-12 13:54:23.532 [info] Getting Manifest... pkief.material-icon-theme
+2024-02-12 13:54:23.539 [info] Getting Manifest... zhuangtongfa.material-theme
+2024-02-12 13:54:23.548 [info] Getting Manifest... seyyedkhandon.firacode
+2024-02-12 13:54:23.673 [info] Installing extension: pkief.material-icon-theme seyyedkhandon.tpack
+2024-02-12 13:54:23.673 [info] Installing extension: zhuangtongfa.material-theme seyyedkhandon.tpack
+2024-02-12 13:54:23.673 [info] Installing extension: seyyedkhandon.firacode seyyedkhandon.tpack
+2024-02-12 13:54:24.237 [warning] Extension signature verification failed with error 'UnknownError': zhuangtongfa.material-theme
+2024-02-12 13:54:24.238 [warning] Extension signature verification failed with error 'UnknownError': pkief.material-icon-theme
+2024-02-12 13:54:24.248 [warning] Extension signature verification failed with error 'UnknownError': seyyedkhandon.firacode
+2024-02-12 13:54:24.305 [info] Removed the extension from uninstalled list: zhuangtongfa.material-theme
+2024-02-12 13:54:24.464 [info] Removed the extension from uninstalled list: pkief.material-icon-theme
+2024-02-12 13:54:24.619 [info] Removed the extension from uninstalled list: seyyedkhandon.firacode
+2024-02-12 13:54:25.267 [warning] Extension signature verification failed with error 'UnknownError': seyyedkhandon.tpack
+2024-02-12 13:54:25.323 [info] Removed the extension from uninstalled list: seyyedkhandon.tpack
+2024-02-12 13:54:25.530 [info] Extension installed successfully: zhuangtongfa.material-theme
+2024-02-12 13:54:25.530 [info] Extension installed successfully: pkief.material-icon-theme
+2024-02-12 13:54:25.531 [info] Extension installed successfully: seyyedkhandon.firacode
+2024-02-12 13:54:25.531 [info] Extension installed successfully: seyyedkhandon.tpack
+2024-02-12 13:54:25.554 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 13:57:24.725 [info] Uninstalling extension from the profile: seyyedkhandon.tpack@2.0.4 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:57:24.826 [info] Uninstalling extension from the profile: pkief.material-icon-theme@4.33.0 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:57:24.826 [info] Uninstalling extension from the profile: seyyedkhandon.firacode@2.2.1 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:57:24.826 [info] Uninstalling extension from the profile: zhuangtongfa.material-theme@3.16.2 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:57:24.928 [info] Marked extension as uninstalled seyyedkhandon.tpack-2.0.4
+2024-02-12 13:57:25.040 [info] Marked extension as uninstalled pkief.material-icon-theme-4.33.0
+2024-02-12 13:57:25.148 [info] Marked extension as uninstalled seyyedkhandon.firacode-2.2.1
+2024-02-12 13:57:25.246 [info] Successfully uninstalled extension from the profile seyyedkhandon.tpack@2.0.4 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:57:25.255 [info] Marked extension as uninstalled zhuangtongfa.material-theme-3.16.2
+2024-02-12 13:57:25.321 [info] Successfully uninstalled extension from the profile pkief.material-icon-theme@4.33.0 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:57:25.449 [info] Successfully uninstalled extension from the profile seyyedkhandon.firacode@2.2.1 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:57:25.643 [info] Successfully uninstalled extension from the profile zhuangtongfa.material-theme@3.16.2 vscode-userdata:/home/m/.vscode/extensions/extensions.json
+2024-02-12 13:57:26.683 [info] Getting Manifest... seyyedkhandon.tpack
+2024-02-12 13:57:26.699 [info] Installing extension: seyyedkhandon.tpack
+2024-02-12 13:57:27.162 [info] Getting Manifest... pkief.material-icon-theme
+2024-02-12 13:57:27.181 [info] Getting Manifest... zhuangtongfa.material-theme
+2024-02-12 13:57:27.195 [info] Getting Manifest... seyyedkhandon.firacode
+2024-02-12 13:57:27.376 [info] Installing extension: pkief.material-icon-theme seyyedkhandon.tpack
+2024-02-12 13:57:27.377 [info] Installing extension: zhuangtongfa.material-theme seyyedkhandon.tpack
+2024-02-12 13:57:27.377 [info] Installing extension: seyyedkhandon.firacode seyyedkhandon.tpack
+2024-02-12 13:57:27.888 [warning] Extension signature verification failed with error 'UnknownError': pkief.material-icon-theme
+2024-02-12 13:57:27.957 [warning] Extension signature verification failed with error 'UnknownError': zhuangtongfa.material-theme
+2024-02-12 13:57:27.963 [warning] Extension signature verification failed with error 'UnknownError': seyyedkhandon.firacode
+2024-02-12 13:57:28.051 [info] Removed the extension from uninstalled list: pkief.material-icon-theme
+2024-02-12 13:57:28.159 [info] Removed the extension from uninstalled list: zhuangtongfa.material-theme
+2024-02-12 13:57:28.272 [info] Removed the extension from uninstalled list: seyyedkhandon.firacode
+2024-02-12 13:57:28.824 [warning] Extension signature verification failed with error 'UnknownError': seyyedkhandon.tpack
+2024-02-12 13:57:28.931 [info] Removed the extension from uninstalled list: seyyedkhandon.tpack
+2024-02-12 13:57:29.118 [info] Extension installed successfully: pkief.material-icon-theme
+2024-02-12 13:57:29.119 [info] Extension installed successfully: zhuangtongfa.material-theme
+2024-02-12 13:57:29.120 [info] Extension installed successfully: seyyedkhandon.firacode
+2024-02-12 13:57:29.121 [info] Extension installed successfully: seyyedkhandon.tpack
+2024-02-12 13:57:29.152 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 14:19:27.737 [info] Getting Manifest... ctcuff.font-preview
+2024-02-12 14:19:27.822 [info] Installing extension: ctcuff.font-preview
+2024-02-12 14:19:30.570 [warning] Extension signature verification failed with error 'UnknownError': ctcuff.font-preview
+2024-02-12 14:19:30.700 [info] Extracted extension to file:///home/m/.vscode/extensions/ctcuff.font-preview-2.2.1: ctcuff.font-preview
+2024-02-12 14:19:30.735 [info] Renamed to /home/m/.vscode/extensions/ctcuff.font-preview-2.2.1
+2024-02-12 14:19:30.740 [info] Extracting extension completed. ctcuff.font-preview
+2024-02-12 14:19:30.844 [info] Extension installed successfully: ctcuff.font-preview
+2024-02-12 14:19:34.630 [info] Getting Manifest... idleberg.icon-fonts
+2024-02-12 14:19:34.652 [info] Installing extension: idleberg.icon-fonts
+2024-02-12 14:19:35.754 [warning] Extension signature verification failed with error 'UnknownError': idleberg.icon-fonts
+2024-02-12 14:19:36.148 [info] Extracted extension to file:///home/m/.vscode/extensions/idleberg.icon-fonts-2.5.4: idleberg.icon-fonts
+2024-02-12 14:19:36.236 [info] Renamed to /home/m/.vscode/extensions/idleberg.icon-fonts-2.5.4
+2024-02-12 14:19:36.248 [info] Extracting extension completed. idleberg.icon-fonts
+2024-02-12 14:19:36.319 [info] Extension installed successfully: idleberg.icon-fonts
+2024-02-12 14:19:36.359 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 14:21:01.408 [info] Getting Manifest... talhabalaj.actual-font-changer
+2024-02-12 14:21:01.435 [info] Installing extension: talhabalaj.actual-font-changer
+2024-02-12 14:21:03.476 [warning] Extension signature verification failed with error 'UnknownError': talhabalaj.actual-font-changer
+2024-02-12 14:21:05.087 [info] Extracted extension to file:///home/m/.vscode/extensions/talhabalaj.actual-font-changer-0.0.10: talhabalaj.actual-font-changer
+2024-02-12 14:21:05.203 [info] Renamed to /home/m/.vscode/extensions/talhabalaj.actual-font-changer-0.0.10
+2024-02-12 14:21:05.210 [info] Extracting extension completed. talhabalaj.actual-font-changer
+2024-02-12 14:21:05.287 [info] Extension installed successfully: talhabalaj.actual-font-changer
+2024-02-12 14:21:05.319 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 20:58:22.972 [info] Getting Manifest... vscode-icons-team.vscode-icons
+2024-02-12 20:58:23.037 [info] Installing extension: vscode-icons-team.vscode-icons
+2024-02-12 20:58:25.166 [warning] Extension signature verification failed with error 'UnknownError': vscode-icons-team.vscode-icons
+2024-02-12 20:58:27.055 [info] Extracted extension to file:///home/m/.vscode/extensions/vscode-icons-team.vscode-icons-12.7.0: vscode-icons-team.vscode-icons
+2024-02-12 20:58:27.125 [info] Renamed to /home/m/.vscode/extensions/vscode-icons-team.vscode-icons-12.7.0
+2024-02-12 20:58:27.130 [info] Extracting extension completed. vscode-icons-team.vscode-icons
+2024-02-12 20:58:27.249 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-12 20:58:27.255 [info] Extension installed successfully: vscode-icons-team.vscode-icons

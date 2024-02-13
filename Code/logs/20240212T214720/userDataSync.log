@@ -1,0 +1,7 @@
+2024-02-12 21:47:22.856 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-02-12 21:47:22.856 [info] Auto Sync is enabled.
+2024-02-12 21:47:22.856 [info] Auto Sync: Suspended until auth token is available.
+2024-02-12 21:47:24.199 [info] Deleting non existing profile from backup /home/m/.config/Code/User/sync/settings
+2024-02-12 21:47:25.190 [info] Auto Sync: Triggered by Interval
+2024-02-12 21:47:25.190 [info] Sync started.
+2024-02-12 21:47:25.464 [info] Deleting non existing profile from backup /home/m/.config/Code/User/sync/snippets

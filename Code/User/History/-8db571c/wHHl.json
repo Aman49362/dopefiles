@@ -1,0 +1,11 @@
+{
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "settingsSync.ignoredSettings": [
+        "editor.fontFamily"
+    ],
+
+    
+    
+    
+}

@@ -1,0 +1,21 @@
+2024-02-12 21:46:43.184 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-02-12 21:46:43.184 [info] Auto Sync is enabled.
+2024-02-12 21:46:43.184 [info] Auto Sync: Suspended until auth token is available.
+2024-02-12 21:46:44.857 [info] Deleting non existing profile from backup /home/m/.config/Code/User/sync/extensions
+2024-02-12 21:46:45.403 [info] Deleting non existing profile from backup /home/m/.config/Code/User/sync/globalState
+2024-02-12 21:46:45.923 [info] Deleting non existing profile from backup /home/m/.config/Code/User/sync/keybindings
+2024-02-12 21:46:45.996 [info] Deleting non existing profile from backup /home/m/.config/Code/User/sync/profiles
+2024-02-12 21:46:46.000 [info] Deleting non existing profile from backup /home/m/.config/Code/User/sync/settings
+2024-02-12 21:46:46.067 [info] Deleting non existing profile from backup /home/m/.config/Code/User/sync/snippets
+2024-02-12 21:46:46.069 [info] Deleting non existing profile from backup /home/m/.config/Code/User/sync/tasks
+2024-02-12 21:46:49.937 [info] Auto Sync: Triggered by Interval
+2024-02-12 21:46:49.940 [info] Sync started.
+2024-02-12 21:46:50.565 [info] Settings: Last sync resource does not exist locally.
+2024-02-12 21:46:50.784 [info] Settings: No changes found during synchronizing settings.
+2024-02-12 21:46:50.793 [info] Keybindings: Last sync resource does not exist locally.
+2024-02-12 21:46:50.977 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-12 21:46:50.981 [info] Snippets: Last sync resource does not exist locally.
+2024-02-12 21:46:51.127 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-12 21:46:51.129 [info] Tasks: Last sync resource does not exist locally.
+2024-02-12 21:46:51.317 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-12 21:46:51.320 [info] GlobalState: Last sync resource does not exist locally.

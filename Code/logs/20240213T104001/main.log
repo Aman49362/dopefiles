@@ -1,0 +1,10 @@
+2024-02-13 10:40:03.615 [info] update#setState idle
+2024-02-13 10:40:33.645 [info] update#setState checking for updates
+2024-02-13 10:40:33.753 [info] update#setState idle
+2024-02-13 10:50:54.985 [error] Blocked vscode-webview request vscode-webview://1acdtklj0ddb39q19d48ht4taiirl10b9t19nubq1v2rkarej9c4/index.html?id=bb60ce9b-e2e3-48ce-8d9a-42053b61ea9b&origin=cc734b91-b67b-432d-9151-6f7ff9296fe3&swVersion=4&extensionId=ms-vscode.live-server&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app
+2024-02-13 10:52:12.672 [error] CodeWindow: failed to load (reason: <unknown>, code: -3)
+2024-02-13 10:56:41.263 [error] CodeWindow: failed to load (reason: <unknown>, code: -3)
+2024-02-13 11:40:33.673 [info] update#setState checking for updates
+2024-02-13 11:40:33.872 [info] update#setState idle
+2024-02-13 11:40:37.625 [error] Blocked vscode-file request vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/base/worker/workerMain.js#editorWorkerService
+2024-02-13 11:40:37.638 [info] Extension host with pid 2392 exited with code: 0, signal: unknown.
